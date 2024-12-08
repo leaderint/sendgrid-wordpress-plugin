@@ -1,0 +1,1 @@
+# SGWidget-wp-plugin
