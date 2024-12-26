@@ -96,6 +96,11 @@ function sg_widget_api_token_render() {
     $api_token = get_option('sg_widget_api_token', '');
     ?>
     <input type='text' name='sg_widget_api_token' value='<?php echo esc_attr($api_token); ?>' style='width: 100%;'>
+    <p class="description">
+        <?php _e('Enter your API token from SG Widget above.', 'sg_widget'); ?>
+        <?php _e('It can be copied from your SG Widget settings by clicking', 'sg_widget'); ?>
+        <a href="https://app.sgwidget.com/settings#/security" target="_blank"><?php _e('here', 'sg_widget'); ?></a>.
+    </p>
     <?php
 }
 
