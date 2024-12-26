@@ -98,3 +98,12 @@ function sg_widget_api_token_render() {
     <input type='text' name='sg_widget_api_token' value='<?php echo esc_attr($api_token); ?>'>
     <?php
 }
+
+// Add a settings link on the plugins page
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'sg_widget_add_action_links');
+
+function sg_widget_add_action_links($links) {
+    $settings_link = '<a href="options-general.php?page=sg-widget">' . __('Settings', 'sg_widget') . '</a>';
+    array_unshift($links, $settings_link);
+    return $links;
+}
