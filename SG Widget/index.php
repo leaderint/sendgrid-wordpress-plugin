@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: SG Widget 
- * Description: A plugin to detect and process the [[sg_widget]] shortcode.
+ * Description: Insert Sendgrid Subscription Widgets on your pages with a shortcode 
  * Version: 1.0
- * Author: Your Name
+ * Author: SGWidget.com
  */
 
 function sg_widget_shortcode($atts) {
