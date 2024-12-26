@@ -95,7 +95,7 @@ function sg_widget_settings_init() {
 function sg_widget_api_token_render() {
     $api_token = get_option('sg_widget_api_token', '');
     ?>
-    <input type='text' name='sg_widget_api_token' value='<?php echo esc_attr($api_token); ?>'>
+    <input type='text' name='sg_widget_api_token' value='<?php echo esc_attr($api_token); ?>' style='width: 100%;'>
     <?php
 }
 
