@@ -74,7 +74,7 @@ function sg_widget_options_page() {
 add_action('admin_init', 'sg_widget_settings_init');
 
 function sg_widget_settings_init() {
-    register_setting('sg_widget_options', 'sg_widget_api_token');
+    register_setting('sg_widget_options', 'sg_widget_api_token', 'sanitize_text_field');
 
     add_settings_section(
         'sg_widget_section',
