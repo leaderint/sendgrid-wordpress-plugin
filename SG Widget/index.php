@@ -35,8 +35,65 @@ function sg_widget_shortcode($atts) {
     // Get the response body
     $body = wp_remote_retrieve_body($response);
 
-    // Return the HTML content
-    return $body;
+    // Define allowed HTML tags and attributes
+    $allowed_html = array(
+        'a' => array(
+            'href' => array(),
+            'title' => array(),
+            'target' => array(),
+        ),
+        'p' => array(),
+        'br' => array(),
+        'strong' => array(),
+        'em' => array(),
+        'style' => array(), // Allow <style> tags
+        'script' => array( // Allow <script> tags
+            'type' => array(),
+            'src' => array(),
+            'defer' => array(),
+        ),
+        'div' => array(
+            'class' => array(),
+            'data-emailerror' => array(),
+            'data-nameerror' => array(),
+            'data-checkboxerror' => array(),
+            'data-customfieldserror' => array(),
+        ),
+        'form' => array(
+            'class' => array(),
+            'data-token' => array(),
+            'onsubmit' => array(),
+        ),
+        'input' => array(
+            'class' => array(),
+            'type' => array(),
+            'name' => array(),
+            'placeholder' => array(),
+            'required' => array(),
+            'id' => array(),
+            'value' => array(),
+        ),
+        'label' => array(),
+        'h3' => array(),
+        'span' => array(
+            'class' => array(),
+        ),
+        'select' => array(
+            'name' => array(),
+            'id' => array(),
+            'required' => array(),
+            'class' => array(),
+        ),
+        'option' => array(
+            'value' => array(),
+        ),
+    );
+
+    // Sanitize the HTML content
+    $safe_html = wp_kses($body, $allowed_html);
+
+    // Return the sanitized HTML content
+    return $safe_html;
 }
 
 // Register the shortcode
