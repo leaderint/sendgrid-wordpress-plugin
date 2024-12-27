@@ -10,7 +10,7 @@
 function sg_widget_register_scripts() {
     wp_register_script(
         'sg-widget-script', // Handle
-        '//app.sgwidget.com/js/sg-widget-v2.js', // Script URL
+        'https://app.sgwidget.com/js/sg-widget-v2.js', // Script URL
         array(), // Dependencies
         null, // Version
         true // Load in footer
@@ -69,6 +69,7 @@ function sg_widget_shortcode($atts) {
         'strong' => array(),
         'em' => array(),
         'style' => array(), // Allow <style> tags
+        'script' => array(), // Allow <style> tags
         'div' => array(
             'class' => array(),
             'data-emailerror' => array(),
