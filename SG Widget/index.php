@@ -46,6 +46,15 @@ function sg_widget_shortcode($atts) {
     // Construct the API URL with the token
     $api_url = "https://app.sgwidget.com/api/widget/{$id}?api_token={$api_token}";
 
+    // Check if the response is cached
+    $cache_key = 'sg_widget_' . md5($api_url);
+    $cached_response = get_transient($cache_key);
+
+    if ($cached_response !== false) {
+        // Return the cached response
+        return $cached_response;
+    }
+
     // Make the GET request
     $response = wp_remote_get($api_url);
 
@@ -69,7 +78,11 @@ function sg_widget_shortcode($atts) {
         'strong' => array(),
         'em' => array(),
         'style' => array(), // Allow <style> tags
-        'script' => array(), // Allow <style> tags
+        'script' => array( // Allow <script> tags
+            'type' => array(),
+            'src' => array(),
+            'defer' => array(),
+        ),
         'div' => array(
             'class' => array(),
             'data-emailerror' => array(),
@@ -109,6 +122,9 @@ function sg_widget_shortcode($atts) {
 
     // Sanitize the HTML content
     $safe_html = wp_kses($body, $allowed_html);
+
+    // Cache the response for 24 hours
+    set_transient($cache_key, $safe_html, DAY_IN_SECONDS);
 
     // Return the sanitized HTML content
     return $safe_html;
