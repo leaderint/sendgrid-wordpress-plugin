@@ -6,7 +6,29 @@
  * Author: SGWidget.com
  */
 
+// Register the script
+function sg_widget_register_scripts() {
+    wp_register_script(
+        'sg-widget-script', // Handle
+        '//app.sgwidget.com/js/sg-widget-v2.js', // Script URL
+        array(), // Dependencies
+        null, // Version
+        true // Load in footer
+    );
+}
+
+// Enqueue the script
+function sg_widget_enqueue_scripts() {
+    wp_enqueue_script('sg-widget-script');
+}
+
+// Hook the script registration to 'wp_enqueue_scripts'
+add_action('wp_enqueue_scripts', 'sg_widget_register_scripts');
+
 function sg_widget_shortcode($atts) {
+    // Enqueue the script
+    sg_widget_enqueue_scripts();
+
     // Extract the ID attribute from the shortcode
     $atts = shortcode_atts(array(
         'id' => '',
@@ -47,11 +69,6 @@ function sg_widget_shortcode($atts) {
         'strong' => array(),
         'em' => array(),
         'style' => array(), // Allow <style> tags
-        'script' => array( // Allow <script> tags
-            'type' => array(),
-            'src' => array(),
-            'defer' => array(),
-        ),
         'div' => array(
             'class' => array(),
             'data-emailerror' => array(),
