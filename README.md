@@ -38,11 +38,13 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 3. Create a widget and copy the ID from the URL ![widget ID](https://imagedelivery.net/k0P4EcPiouU_XzyGSmgmUw/700ebb3a-8a78-4990-ceab-958336b5f300/public)
 
 **Adding the widget to your website:**
-1. Go to /wp-admin/plugin-install.php in your wordpress admin panel and click Upload Plugin. 
+1. Go to /wp-admin/plugin-install.php in your wordpress admin panel and click Upload Plugin. ![install plugin](https://imagedelivery.net/k0P4EcPiouU_XzyGSmgmUw/f7aabdd2-d254-46d2-bcb9-e7869618f200/public)
 2. Upload the \"SG Widget.zip\" from this repository and click install
-3. Activate the plugin 
-4. Open the plugin settings page and enter your SG Widget API Key
-5. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
+3. Activate the plugin and open the plugin settings page and enter your SG Widget API Key ![activate plugin](https://imagedelivery.net/k0P4EcPiouU_XzyGSmgmUw/ab6fa4af-5c49-48c1-5f45-0c46858a9500/public)
+4. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account 
+```
+[sg_widget id="215"]
+```
 
 ## Privacy And Security:
 
