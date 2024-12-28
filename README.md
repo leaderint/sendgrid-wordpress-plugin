@@ -1,4 +1,4 @@
-# SG Widget 
+# Sendgrid Wordpress Plugin
 ![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
 SG Widget is a Sendgrid Subscription Widget for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account.
@@ -12,7 +12,7 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 
 Features:
 
-1. Designed For SendGrid
+1. Designed For SendGrid Marketing Campaigns
 2. Double Opt In
 3. Customisable
 4. Extra Form Fields
@@ -23,25 +23,25 @@ Features:
 9. Multilingual
 10. Fast
 
-How it works:
+## How it works:
 
 * Create an [SG Widget](https://sgwidget.com) account
 * Create a widget in SG Widget
 * Enter the widget ID in the shortcode
 
-Privacy And Security:
+##Privacy And Security:
 
 SG Widget **does not** store personal data for subscribers that enter their email address.
 
 
-== Installation ==
-Creating an SG Widget account:
+## Installation 
+*Creating an SG Widget account:*
 1. Go to [https://app.sgwidget.com/register](https://app.sgwidget.com/register) account
 2. Enter your email address and click "Create Account"
 3. Login to your and connect it to Sendgrid
 4. Go to [https://app.sgwidget.com/my-account](https://app.sgwidget.com/my-account) and copy your SG Widget API Key
 
-Adding the widget to your website:
+*Adding the widget to your website:*
 1. Go to /wp-admin/plugins in your website backend. 
 2. Click Add New Plugin
 3. Upload \"SG-Widgets.zip\" and click install
@@ -49,7 +49,7 @@ Adding the widget to your website:
 3. Click on "SG Widget" in the left menu and enter your SG Widget API Key
 3. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 = What PHP versions are supported ? =
 All versions from 5.6 upwards
 
@@ -65,11 +65,7 @@ After installing the plugin, just add a shortcode to a page whereever you want a
 = Can I disable Double opt in? =
 Yes. Widgets can be single opt in or double opt in
 
-== Screenshots ==
-1. The screenshot description corresponds to screenshot-1.(png|jpg|jpeg|gif).
-2. The screenshot description corresponds to screenshot-2.(png|jpg|jpeg|gif).
-3. The screenshot description corresponds to screenshot-3.(png|jpg|jpeg|gif).
 
-== Changelog ==
+## Changelog ==
 = 1.0 =
 * Initial release.
