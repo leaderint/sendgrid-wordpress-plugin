@@ -1,19 +1,8 @@
-=== SG Widget ===
-Contributors: leaderinternet
-Tags: sendgrid widget, sendgrid subscription widget, Double opt in sendgrid, sendgrid subscribe form, sendgrid unsubscribe link
-Donate link: https://sgwidget.com
-Requires at least: 4.0
-Tested up to: 6.7
-Requires PHP: 5.6
-Stable tag: 1.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# SG Widget 
 
 SG Widget is a Sendgrid Subscription Widget for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account.
 
-== Description ==
-SG Widget is a Sendgrid Subscription Widget that makes it easy to collect emails on your website. Just add a shortcode to capture emails that get stored in your Sendgrid contact lists. 
-
+## About
 The widget is designed specifically for Sendgrid and integrates perfectly with Marketing Campaigns.
 
 After entering their email address, users will receive a double opt in email to confirm their subscription. The email template can be customsed to match your brand and additional form fields can be added that allows more information to be collected.
