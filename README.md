@@ -34,16 +34,15 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 ## Installation 
 **Create an SG Widget account:**
 1. Go to [SG Widget](https://app.sgwidget.com/register) and enter your email address
-2. Login and connect your account to Sendgrid in the [my account area](https://app.sgwidget.com/my-account) 
+2. Login and connect your account to Sendgrid in the [my account area](https://app.sgwidget.com/my-account) ![connect sendgrid account](https://imagedelivery.net/k0P4EcPiouU_XzyGSmgmUw/bc4426a6-fdb5-4fcf-750b-b5f8e2408300/public)
 3. Create a widget
 
 **Adding the widget to your website:**
-1. Go to /wp-admin/plugins in your wordpress admin panel. 
-2. Click Add New Plugin
-3. Upload the \"SG Widget.zip\" from this repository and click install
-2. Activate the plugin 
-3. Open the plugin settings page and enter your SG Widget API Key
-3. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
+1. Go to /wp-admin/plugin-install.php in your wordpress admin panel and click Upload Plugin. 
+2. Upload the \"SG Widget.zip\" from this repository and click install
+3. Activate the plugin 
+4. Open the plugin settings page and enter your SG Widget API Key
+5. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
 
 ## Privacy And Security:
 
