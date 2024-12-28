@@ -39,7 +39,7 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 **Adding the widget to your website:**
 1. Go to /wp-admin/plugins in your wordpress admin panel. 
 2. Click Add New Plugin
-3. Upload \"SG Widget.zip\" and click install
+3. Download this repository, upload the \"SG Widget.zip\" package and click install
 2. Activate the plugin 
 3. Open the plugin settings page and enter your SG Widget API Key
 3. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
