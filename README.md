@@ -1,7 +1,9 @@
 # Sendgrid Wordpress Plugin
 ![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
-[SG Widget](https://sgwidget.com) is a **Sendgrid Wordpress Plugin** for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. SG Widget is the number 1 Sendgrid Subscription widget since 2018 and has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget).
+[SG Widget](https://sgwidget.com) is a **Sendgrid Wordpress Plugin** for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. 
+
+SG Widget is the number 1 Sendgrid Subscription widget since 2018 and has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget).
 
 ## About
 The widget is designed specifically for Sendgrid and integrates perfectly with Marketing Campaigns.
@@ -25,8 +27,7 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 
 ## How It Works Overview:
 
-* Create an [SG Widget](https://app.sgwidget.com/register) account
-* Create a widget
+* Register an [SG Widget](https://app.sgwidget.com/register) account and create a widget
 * Enter the widget ID in the shortcode in a wordpress post
 
 
@@ -39,7 +40,7 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 **Adding the widget to your website:**
 1. Go to /wp-admin/plugins in your wordpress admin panel. 
 2. Click Add New Plugin
-3. Download this repository, upload the \"SG Widget.zip\" package and click install
+3. Upload the \"SG Widget.zip\" from this repository and click install
 2. Activate the plugin 
 3. Open the plugin settings page and enter your SG Widget API Key
 3. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
@@ -52,19 +53,19 @@ SG Widget **does not** store personal data for subscribers that enter their emai
 Q: What PHP versions are supported?
 A: All versions from 5.6 upwards
 
-Q: Will contacts from the widget be uploaded to Marketing Campaigns or Legacy Newsletter?
+Q: Will contacts from the widget be uploaded to new or Leagacy Marketing Campaigns?
 A: Contacts can be uploaded to either. It will be determined by the settings of the widget in your Sendgrid account
 
 Q: Can the emails be customised?
 A: Yes. The double opt in and welcome emails can be fully customised and can even use templates from your Sendgrid account
 
 Q: How is the widget added to a page?
-A: After installing the plugin, just add a shortcode to a page whereever you want a widget to show [sg_widget id=\"123\"]
+A: After installing the plugin, just add a shortcode to a page where you want a widget to show [sg_widget id=\"123\"]
 
 Q: Can I disable Double opt in?
 A: Yes. Widgets can be single opt in or double opt in
 
 
-## Changelog ==
+## Changelog
 = 1.0 =
 * Initial release.
