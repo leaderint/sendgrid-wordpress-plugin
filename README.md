@@ -1,7 +1,7 @@
 # Sendgrid Wordpress Plugin
 ![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
-SG Widget is a **Sendgrid Wordpress Plugin** for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. SG Widget is the number 1 Sendgrid Subscription widget since 2018 and has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget)
+[SG Widget](https://sgwidget.com) is a **Sendgrid Wordpress Plugin** for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. SG Widget is the number 1 Sendgrid Subscription widget since 2018 and has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget).
 
 ## About
 The widget is designed specifically for Sendgrid and integrates perfectly with Marketing Campaigns.
@@ -23,24 +23,23 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 9. Multilingual
 10. Fast
 
-## How it works:
+## How It Works Overview:
 
-* Create an [SG Widget](https://sgwidget.com) account
+* Create an [SG Widget](https://app.sgwidget.com/register) account
 * Create a widget
-* Enter the widget ID in the shortcode
+* Enter the widget ID in the shortcode in a wordpress post
 
 
 ## Installation 
 **Creating an SG Widget account:**
-1. Go to [https://app.sgwidget.com/register](https://app.sgwidget.com/register) account
-2. Enter your email address and click "Create Account"
-3. Login to your and connect it to Sendgrid
-4. Go to [https://app.sgwidget.com/my-account](https://app.sgwidget.com/my-account) and copy your SG Widget API Key
+1. Go to [https://app.sgwidget.com/register](https://app.sgwidget.com/register) and enter your email address
+2. Login and connect your account to Sendgrid [https://app.sgwidget.com/my-account](https://app.sgwidget.com/my-account) 
+3. Create a widget
 
 **Adding the widget to your website:**
 1. Go to /wp-admin/plugins in your website backend. 
 2. Click Add New Plugin
-3. Upload \"SG-Widgets.zip\" and click install
+3. Upload \"SG Widget.zip\" and click install
 2. Activate the plugin through the \"Plugins\" menu in WordPress.
 3. Click on "SG Widget" in the left menu and enter your SG Widget API Key
 3. Place \"[sg_widget id=\"123\"]\" in your template where ID is the ID of a widget from your SG Widget account
