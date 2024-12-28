@@ -29,19 +29,19 @@ Features:
 * Create a widget in SG Widget
 * Enter the widget ID in the shortcode
 
-##Privacy And Security:
+## Privacy And Security:
 
 SG Widget **does not** store personal data for subscribers that enter their email address.
 
 
 ## Installation 
-*Creating an SG Widget account:*
+**Creating an SG Widget account:**
 1. Go to [https://app.sgwidget.com/register](https://app.sgwidget.com/register) account
 2. Enter your email address and click "Create Account"
 3. Login to your and connect it to Sendgrid
 4. Go to [https://app.sgwidget.com/my-account](https://app.sgwidget.com/my-account) and copy your SG Widget API Key
 
-*Adding the widget to your website:*
+**Adding the widget to your website:**
 1. Go to /wp-admin/plugins in your website backend. 
 2. Click Add New Plugin
 3. Upload \"SG-Widgets.zip\" and click install
