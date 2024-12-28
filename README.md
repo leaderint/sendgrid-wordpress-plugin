@@ -1,4 +1,5 @@
 # SG Widget 
+![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
 SG Widget is a Sendgrid Subscription Widget for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account.
 
