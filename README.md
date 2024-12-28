@@ -1,7 +1,7 @@
 # Sendgrid Wordpress Plugin
 ![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
-SG Widget is a Sendgrid Wordpress Plugin for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. SG Widget has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget)
+SG Widget is a Sendgrid Wordpress Plugin for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. SG Widget is the number 1 Sendgrid Subscription widget since 2018 and has been featured on the official [Sendgrid website](https://sendgrid.com/en-us/blog/building-a-sendgrid-subscription-widget)
 
 ## About
 The widget is designed specifically for Sendgrid and integrates perfectly with Marketing Campaigns.
