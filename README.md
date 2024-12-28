@@ -51,19 +51,19 @@ Simple analytics are provided in SG Widget to track the number of subscribers so
 SG Widget **does not** store personal data for subscribers that enter their email address.
 
 ## Frequently Asked Questions
-Q: What PHP versions are supported?
+Q: What PHP versions are supported?  
 A: All versions from 5.6 upwards
 
-Q: Will contacts from the widget be uploaded to new or Leagacy Marketing Campaigns?
+Q: Will contacts from the widget be uploaded to new or Leagacy Marketing Campaigns?  
 A: Contacts can be uploaded to either. It will be determined by the settings of the widget in your Sendgrid account
 
-Q: Can the emails be customised?
+Q: Can the emails be customised?  
 A: Yes. The double opt in and welcome emails can be fully customised and can even use templates from your Sendgrid account
 
-Q: How is the widget added to a page?
+Q: How is the widget added to a page?  
 A: After installing the plugin, just add a shortcode to a page where you want a widget to show [sg_widget id=\"123\"]
 
-Q: Can I disable Double opt in?
+Q: Can I disable Double opt in?  
 A: Yes. Widgets can be single opt in or double opt in
 
 
