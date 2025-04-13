@@ -75,10 +75,6 @@ After installing the plugin, just add a shortcode to a page whereever you want a
 = Can I disable Double opt in? =
 Yes. Widgets can be single opt in or double opt in
 
-== Screenshots ==
-1. The screenshot description corresponds to screenshot-1.(png|jpg|jpeg|gif).
-2. The screenshot description corresponds to screenshot-2.(png|jpg|jpeg|gif).
-3. The screenshot description corresponds to screenshot-3.(png|jpg|jpeg|gif).
 
 == Changelog ==
 = 1.0 =
