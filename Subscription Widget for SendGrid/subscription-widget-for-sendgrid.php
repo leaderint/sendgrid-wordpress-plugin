@@ -9,6 +9,11 @@
  * Requires PHP: 7.4
  */
 
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 // Register the script
 function sg_widget_register_scripts() {
     wp_register_script(
