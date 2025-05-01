@@ -3,7 +3,7 @@ Contributors: leaderinternet
 Tags: sendgrid widget, sendgrid subscription widget, Double opt in sendgrid, sendgrid subscribe form, sendgrid unsubscribe link
 Donate link: https://sgwidget.com
 Requires at least: 4.0
-Tested up to: 7.4
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0
 License: GPLv2 or later

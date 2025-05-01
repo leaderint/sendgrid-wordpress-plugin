@@ -20,7 +20,7 @@ function sg_widget_register_scripts() {
         'sg-widget-script', // Handle
         'https://app.sgwidget.com/js/sg-widget-v2.js', // Script URL
         array(), // Dependencies
-        null, // Version
+        '2.0', // Version - matches external script version
         true // Load in footer
     );
 }
@@ -177,14 +177,14 @@ function sg_widget_settings_init() {
 
     add_settings_section(
         'sg_widget_section',
-        __('API Settings', 'subscription-widget-for-sendgrid'),
+        esc_html__('API Settings', 'subscription-widget-for-sendgrid'),
         null,
         'sg-widget'
     );
 
     add_settings_field(
         'sg_widget_api_token',
-        __('API Token', 'subscription-widget-for-sendgrid'),
+        esc_html__('API Token', 'subscription-widget-for-sendgrid'),
         'sg_widget_api_token_render',
         'sg-widget',
         'sg_widget_section'
@@ -196,9 +196,9 @@ function sg_widget_api_token_render() {
     ?>
     <input type='text' name='sg_widget_api_token' value='<?php echo esc_attr($api_token); ?>' style='width: 100%;'>
     <p class="description">
-        <?php _e('Enter your API token from SG Widget above.', 'subscription-widget-for-sendgrid'); ?>
-        <?php _e('It can be copied from your SG Widget settings by clicking', 'subscription-widget-for-sendgrid'); ?>
-        <a href="https://app.sgwidget.com/settings#/security" target="_blank"><?php _e('here', 'subscription-widget-for-sendgrid'); ?></a>.
+        <?php esc_html_e('Enter your API token from SG Widget above.', 'subscription-widget-for-sendgrid'); ?>
+        <?php esc_html_e('It can be copied from your SG Widget settings by clicking', 'subscription-widget-for-sendgrid'); ?>
+        <a href="https://app.sgwidget.com/settings#/security" target="_blank"><?php esc_html_e('here', 'subscription-widget-for-sendgrid'); ?></a>.
     </p>
     <?php
 }
@@ -207,7 +207,7 @@ function sg_widget_api_token_render() {
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'sg_widget_add_action_links');
 
 function sg_widget_add_action_links($links) {
-    $settings_link = '<a href="options-general.php?page=sg-widget">' . __('Settings', 'subscription-widget-for-sendgrid') . '</a>';
+    $settings_link = '<a href="' . esc_url(admin_url('options-general.php?page=sg-widget')) . '">' . esc_html__('Settings', 'subscription-widget-for-sendgrid') . '</a>';
     array_unshift($links, $settings_link);
     return $links;
 }
