@@ -1,4 +1,4 @@
-# Sendgrid Wordpress Plugin
+# Subscription Widget for SendGrid
 ![SG Widget Logo](https://app.sgwidget.com/img/sg-widget-logo.png)
 
 [SG Widget](https://sgwidget.com) is a **Sendgrid Wordpress Plugin** for collecting emails. Just add a shortcode to capture emails and store them in your Sendgrid Account. 

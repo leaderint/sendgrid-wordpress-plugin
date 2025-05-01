@@ -1,10 +1,10 @@
-=== SG Widget ===
+=== Subscription Widget for SendGrid ===
 Contributors: leaderinternet
 Tags: sendgrid widget, sendgrid subscription widget, Double opt in sendgrid, sendgrid subscribe form, sendgrid unsubscribe link
 Donate link: https://sgwidget.com
 Requires at least: 4.0
-Tested up to: 6.7
-Requires PHP: 5.6
+Tested up to: 7.4
+Requires PHP: 7.4
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,6 +43,8 @@ Privacy And Security:
 
 SG Widget **does not** store personal data for subscribers that enter their email address.
 
+Read our [Privacy Policy](https://sgwidget.com/privacy) and [Terms](https://sgwidget.com/terms) for more information.
+
 
 == Installation ==
 Creating an SG Widget account:
@@ -61,7 +63,7 @@ Adding the widget to your website:
 
 == Frequently Asked Questions ==
 = What PHP versions are supported ? =
-All versions from 5.6 upwards
+PHP 7.4 or higher is required for security and performance reasons.
 
 = Will contacts from the widget be uploaded to Marketing Campaigns or Legacy Newsletter? =
 Contacts can be uploaded to either. It will be determined by the settings of the widget in your Sendgrid account
@@ -74,6 +76,9 @@ After installing the plugin, just add a shortcode to a page whereever you want a
 
 = Can I disable Double opt in? =
 Yes. Widgets can be single opt in or double opt in
+
+= What data is sent to Sendgrid? =
+Email address and any other custom field you added to your widget.
 
 
 == Changelog ==

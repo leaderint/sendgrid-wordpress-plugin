@@ -1,11 +1,12 @@
 <?php
 /**
- * Plugin Name: SG Widget 
+ * Plugin Name: Subscription Widget for SendGrid
  * Description: Insert Sendgrid Subscription Widgets on your pages with a shortcode 
  * Version: 1.0
  * Author: SGWidget.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Requires PHP: 7.4
  */
 
 // Register the script
