@@ -84,3 +84,8 @@ Email address and any other custom field you added to your widget.
 == Changelog ==
 = 1.0 =
 * Initial release.
+
+== Screenshots ==
+1. Example of the SG Widget subscription form embedded on a WordPress page.
+2. Confirmation Emails for Double Opt In
+3. Analytics to track signups
